@@ -24,7 +24,7 @@
 <button 
 	style="position: fixed; bottom: 25px;right: 25px;" 
 	onclick="launchChat()">
- 	<img src="https://dsb00000fiy6z2af--c.test1.vf.pc-rnd.force.com/resource/1732720800000/ChatIcon"/>
+ 	<img src="https://www.infallibletechie.com/wp-content/uploads/2024/11/bot_120.png"/>
   	&nbsp;&nbsp;&nbsp;
 	Hi, How can I help you?
 </button>
