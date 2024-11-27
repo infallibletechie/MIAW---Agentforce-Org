@@ -22,7 +22,7 @@
 <script type='text/javascript' src='https://dsb00000fiy6z2af.test1.my.pc-rnd.site.com/ESWMIAWAgentforce1730200100175/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
 
 <button 
-	style="position: fixed; bottom: 5;right: 5;" 
+	style="position: fixed; bottom: 5px;right: 5px;" 
 	onclick="launchChat()">
 	Hi, How can I help you?
 </button>
