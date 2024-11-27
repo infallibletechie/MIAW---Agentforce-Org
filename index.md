@@ -1,4 +1,5 @@
 <html>
+Testing Chat
 <script type='text/javascript'>
 	function initEmbeddedMessaging() {
 		try {
