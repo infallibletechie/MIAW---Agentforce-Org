@@ -1,5 +1,5 @@
 <html>
-Testing Chat11
+Testing Chat2
 <script type='text/javascript'>
 	function initEmbeddedMessaging() {
 		try {
@@ -25,7 +25,7 @@ Testing Chat11
 <button 
 	style="position: fixed; bottom: 35px; right: 35px; border-radius: 40px; background: #801818;" 
 	onclick="launchChat()">
- 	<table style="border-collapse: collapse; border: none;">
+ 	<table style="border-style: none;">
 		<tr>
 			<td >
 				<img 
