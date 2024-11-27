@@ -24,7 +24,10 @@
 <button 
 	style="position: fixed; bottom: 25px;right: 25px;border-radius: 12px;" 
 	onclick="launchChat()">
- 	<img src="https://www.infallibletechie.com/wp-content/uploads/2024/11/bot_120.png"/>
+ 	<img 
+		src="https://www.infallibletechie.com/wp-content/uploads/2024/11/bot_120.png"
+		height="50px"
+		width="50px"/>
   	&nbsp;&nbsp;&nbsp;
 	Hi, How can I help you?
 </button>
