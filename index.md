@@ -6,13 +6,13 @@
          }
       </style>
    </head>
-   Testing Chat4
+   Testing Chat5
    <script type='text/javascript'>
       function initEmbeddedMessaging() {
       	try {
       		embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
       		//Hiding Chat Button on page load
-        			embeddedservice_bootstrap.settings.hideChatButtonOnLoad = true;
+        	embeddedservice_bootstrap.settings.hideChatButtonOnLoad = true;
       
       		embeddedservice_bootstrap.init(
       			'00DSB00000FiY6z',
@@ -28,22 +28,16 @@
       };
    </script>
    <script type='text/javascript' src='https://dsb00000fiy6z2af.test1.my.pc-rnd.site.com/ESWMIAWAgentforce1730200100175/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
-   <table style="position: fixed; bottom: 35px; right: 35px; border-radius: 40px; background: #801818; cursor: pointer;">
-      <tr>
-         <td onclick="launchChat()">
+   <div style="position: fixed; bottom: 35px; right: 35px; border-radius: 40px; background: #801818; cursor: pointer; color: white"">
+         <div onclick="launchChat()">
             <img 
                src="https://www.infallibletechie.com/wp-content/uploads/2024/11/bot_120.png"
-               style="border-radius: 50%;"
+               style="border-radius: 50%; float:left;"
                height="50px"
                width="50px"/>
-         </td>
-         <td onclick="launchChat()">
-            <p style="color: white">
-               Hi, How can I help you? 
-            </p>
-         </td>
-      </tr>
-   </table>
+	       <h3 style="float:right;">Hi, How can I help you?</h3>
+         </div>
+   </div>
    <script>
 	function launchChat() {
            embeddedservice_bootstrap.utilAPI.launchChat()
