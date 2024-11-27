@@ -32,7 +32,7 @@
          <div onclick="launchChat()">
             <img 
                src="https://www.infallibletechie.com/wp-content/uploads/2024/11/ChatBOT.png"
-               style="border-radius: 50%; float:left;"
+               style="border-radius: 50%; float:left; margin: 5px;"
                height="50px"
                width="50px"/>
 	       <h3 style="float:right;">Hi, How can I help you?</h3>
