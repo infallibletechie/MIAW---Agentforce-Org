@@ -6,7 +6,7 @@
          }
       </style>
    </head>
-   Testing Chat5
+   Testing Chat
    <script type='text/javascript'>
       function initEmbeddedMessaging() {
       	try {
@@ -31,7 +31,7 @@
    <div style="position: fixed; bottom: 35px; right: 35px; border-radius: 40px; background: #801818; cursor: pointer; color: white">
          <div onclick="launchChat()">
             <img 
-               src="https://www.infallibletechie.com/wp-content/uploads/2024/11/bot_120.png"
+               src="https://www.infallibletechie.com/wp-content/uploads/2024/11/ChatBOT.png"
                style="border-radius: 50%; float:left;"
                height="50px"
                width="50px"/>
