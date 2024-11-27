@@ -26,6 +26,7 @@
 	onclick="launchChat()">
  	<img 
 		src="https://www.infallibletechie.com/wp-content/uploads/2024/11/bot_120.png"
+		style="border-radius: 50%;"
 		height="50px"
 		width="50px"/>
   	&nbsp;&nbsp;&nbsp;
