@@ -1,5 +1,12 @@
 <html>
-Testing Chat2
+	<head>
+		<style>
+			th, td {
+  				border-style: none;
+			}
+		</style>
+	</head>
+Testing Chat3
 <script type='text/javascript'>
 	function initEmbeddedMessaging() {
 		try {
@@ -25,9 +32,9 @@ Testing Chat2
 <button 
 	style="position: fixed; bottom: 35px; right: 35px; border-radius: 40px; background: #801818;" 
 	onclick="launchChat()">
- 	<table style="border-style: none;">
+ 	<table>
 		<tr>
-			<td >
+			<td>
 				<img 
 					src="https://www.infallibletechie.com/wp-content/uploads/2024/11/bot_120.png"
 					style="border-radius: 50%;"
