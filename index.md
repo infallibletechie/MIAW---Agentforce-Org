@@ -24,16 +24,16 @@
 <button 
 	style="position: fixed; bottom: 35px;right: 35px;border-radius: 40px;background: #801818;" 
 	onclick="launchChat()">
- 	<table>
-		<tr>
-			<td>
+ 	<table style="border-collapse: background: #801818;border: none;">
+		<tr style="border: none;">
+			<td style="border: none;">
 				<img 
 					src="https://www.infallibletechie.com/wp-content/uploads/2024/11/bot_120.png"
 					style="border-radius: 50%;"
 					height="50px"
 					width="50px"/>
 			</td>
-			<td>
+			<td style="border: none;">
 				<p style="color: white">
 					Hi, How can I help you? 
 				</p>
