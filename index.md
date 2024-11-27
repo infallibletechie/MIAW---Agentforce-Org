@@ -21,8 +21,10 @@
 </script>
 <script type='text/javascript' src='https://dsb00000fiy6z2af.test1.my.pc-rnd.site.com/ESWMIAWAgentforce1730200100175/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
 
-<button style="position: fixed;bottom: 0;right: 0;" onclick="launchChat()">
-	Click to contact support
+<button 
+	style="position: fixed; bottom: 5;right: 5;" 
+	onclick="launchChat()">
+	Hi, How can I help you?
 </button>
 
 <script>
