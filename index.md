@@ -1,11 +1,4 @@
 <html>
-   <head>
-      <style>
-         th, td {
-         border-style: none;
-         }
-      </style>
-   </head>
    <script type='text/javascript'>
       function initEmbeddedMessaging() {
       	try {
