@@ -4,7 +4,7 @@
       	try {
       		embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
       		//Hiding Chat Button on page load
-        	embeddedservice_bootstrap.settings.hideChatButtonOnLoad = true;
+        	//embeddedservice_bootstrap.settings.hideChatButtonOnLoad = true;
       
       		embeddedservice_bootstrap.init(
       			'00DSB00000FiY6z',
@@ -20,7 +20,7 @@
       };
    </script>
    <script type='text/javascript' src='https://dsb00000fiy6z2af.test1.my.pc-rnd.site.com/ESWMIAWAgentforce1730200100175/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
-   <div style="position: fixed; bottom: 35px; right: 35px; border-radius: 40px; background: #801818; cursor: pointer; color: white">
+  <!-- <div style="position: fixed; bottom: 35px; right: 35px; border-radius: 40px; background: #801818; cursor: pointer; color: white">
          <div onclick="launchChat()">
             <img 
                src="https://www.infallibletechie.com/wp-content/uploads/2024/11/ChatBOT.png"
@@ -47,5 +47,5 @@
                    );
                });
        }
-   </script>
+   </script>-->
 </html>
