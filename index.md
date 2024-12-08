@@ -35,11 +35,16 @@
 			agentType
 		);
 
-  		embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields(
-				{
-					'agentType' : agentType
-				}
-			);
+  		window.addEventListener( "onEmbeddedMessagingReady", () => {        
+			console.log(
+				'agentType is -',
+				agentType
+			);    
+			console.log( "Inside Prechat API!!" );
+			embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields( { 
+		    		"agentType" : agentType 
+			} );
+		} );
            embeddedservice_bootstrap.utilAPI.launchChat()
                .then(() => {
                    console.log(
