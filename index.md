@@ -31,9 +31,15 @@
    <script>
 	function launchChat( agentType ) {
 		console.log(
-			'agentType is',
+			'agentType is -',
 			agentType
 		);
+
+  		embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields(
+				{
+					'agentType' : agentType
+				}
+			);
            embeddedservice_bootstrap.utilAPI.launchChat()
                .then(() => {
                    console.log(
