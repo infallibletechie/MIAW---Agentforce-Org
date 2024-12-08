@@ -20,7 +20,7 @@
       };
    </script>
    <script type='text/javascript' src='https://dsb00000fiy6z2af.test1.my.pc-rnd.site.com/ESWMIAWAgentforce1730200100175/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
-  <div style="position: fixed; bottom: 35px; right: 35px; border-radius: 40px; background: #801818; cursor: pointer; color: white">
+  <div style="position: fixed; bottom: 35px; right: 35px;">
          <button onclick="launchChat('Agent')">
 		 Chat with an Agent
 	 </button>
