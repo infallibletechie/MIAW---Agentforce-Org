@@ -1,20 +1,13 @@
 <html>
 <script type='text/javascript'>
+	window.addEventListener("onEmbeddedMessagingReady", () => {
+            embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields({
+                    "Language" : embeddedservice_bootstrap.settings.language
+             });
+	});
 	function initEmbeddedMessaging() {
 		try {
-			const params = new URLSearchParams(
-			    window.location.search
-			);
-			let varLang = 
-			    params.has( 'language' ) ?
-			    params.get( 'language' ) : 
-			    'en_US';
-			console.log(
-			    'Language is',
-			    varLang
-			);
-			embeddedservice_bootstrap.settings.language = varLang;
-			//embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
+			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
    			embeddedservice_bootstrap.settings.enableUserInputForConversationWithBot = false;
 
 			embeddedservice_bootstrap.init(
