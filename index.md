@@ -3,7 +3,7 @@
 	window.addEventListener( "onEmbeddedMessagingReady", () => {
 	    console.log( 'Language::', embeddedservice_bootstrap.settings.language );
             embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields( {
-                    "Language" : embeddedservice_bootstrap.settings.language
+                    "Language" : "French"
              } );
 	} );
 	function initEmbeddedMessaging() {
