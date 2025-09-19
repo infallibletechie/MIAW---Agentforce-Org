@@ -9,6 +9,7 @@
         function initEmbeddedMessaging() {
             try {
                 embeddedservice_bootstrap.settings.language = 'en_US'; 
+                embeddedservice_bootstrap.settings.enableUserInputForConversationWithBot = false;
 
                 window.addEventListener("onEmbeddedMessageSent", (event) => {
                     console.log("START:: Message Sent");
