@@ -17,14 +17,15 @@
                     const { conversationEntry } = tempContent;
                     console.log('conversationEntry -->', JSON.stringify(conversationEntry));
 
-                    if (conversationEntry?.sender?.role) {
-                        const { role: strRole, entryPayload } = conversationEntry.sender;
+                    if (conversationEntry?.sender?.role && conversationEntry.entryPayload) {
+                        let strRole = conversationEntry.sender.role;
                         console.log('strRole =>', strRole);
-                        console.log('entryPayload =>', JSON.stringify(entryPayload));
+                        let objEntryPayload = conversationEntry.entryPayload: 
+                        console.log('objEntryPayload =>', JSON.stringify(objEntryPayload));
 
                         if (strRole === 'EndUser' && entryPayload) {
                             try {
-                                const entryPayloadObj = JSON.parse(entryPayload);
+                                const entryPayloadObj = JSON.parse(objEntryPayload);
                                 const result = entryPayloadObj?.abstractMessage?.staticContent?.text;
                                 
                                 console.log('result -->', result);
