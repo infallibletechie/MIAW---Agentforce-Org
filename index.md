@@ -31,7 +31,7 @@
                                 console.log('result -->', result);
                                 const optOutKeywords = [ 'end', 'stop' ];
                                 
-                                if (optOutKeywords.includes(result)) {
+                                if (optOutKeywords.includes(result.toLowerCase())) {
                                     embeddedservice_bootstrap.userVerificationAPI
                                         .clearSession()
                                         .then(() => {
