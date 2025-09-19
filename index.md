@@ -24,6 +24,22 @@
 							let result = entryPayloadObj.abstractMessage.staticContent.text;
 							
 							console.log( 'result -->', result );
+
+	  						if ( result == 'End' ) {
+
+   								embeddedservice_bootstrap.userVerificationAPI
+							  .clearSession()
+							  .then(() => {
+								console.log("clearSession then>>>");
+							  })
+							  .catch((error) => {
+								console.log("clearSession error>>>");
+							  })
+							  .finally(() => {
+								console.log("clearSession finally>>>");
+							  });
+
+   							}
 	   
    						}
 
