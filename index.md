@@ -20,7 +20,7 @@
                     if (conversationEntry?.sender?.role && conversationEntry.entryPayload) {
                         let strRole = conversationEntry.sender.role;
                         console.log('strRole =>', strRole);
-                        let objEntryPayload = conversationEntry.entryPayload: 
+                        let objEntryPayload = conversationEntry.entryPayload;
                         console.log('objEntryPayload =>', JSON.stringify(objEntryPayload));
 
                         if (strRole === 'EndUser' && entryPayload) {
