@@ -4,6 +4,24 @@
 		try {
 			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
 
+			   window.addEventListener( "onEmbeddedMessageSent", ( event ) => {
+			
+				console.log( "START:: Message Sent" );
+				console.log( "Event detail: ", JSON.stringify( event.detail ) );
+					
+				let tempContent = event.detail;
+			
+					if ( tempContent.conversationEntry.sender.role ) {
+			
+					let strRole = tempContent.conversationEntry.sender.role;
+					console.log( 'strRole =>', strRole );
+			
+				}
+			
+				console.log( "END:: Message Sent" );
+			
+			} );
+
 			embeddedservice_bootstrap.init(
 				'00DKj00000BqFBw',
 				'Messaging_for_In_App_and_Web',
