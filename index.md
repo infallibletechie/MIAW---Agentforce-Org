@@ -23,7 +23,7 @@
                         let objEntryPayload = conversationEntry.entryPayload;
                         console.log('objEntryPayload =>', JSON.stringify(objEntryPayload));
 
-                        if (strRole === 'EndUser' && entryPayload) {
+                        if (strRole === 'EndUser' && objEntryPayload) {
                             try {
                                 const entryPayloadObj = JSON.parse(objEntryPayload);
                                 const result = entryPayloadObj?.abstractMessage?.staticContent?.text;
