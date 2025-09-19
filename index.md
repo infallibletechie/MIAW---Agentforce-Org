@@ -15,6 +15,7 @@
                     
                     const tempContent = event.detail;
                     const { conversationEntry } = tempContent;
+                    console.log('conversationEntry -->', JSON.stringify(conversationEntry));
 
                     if (conversationEntry?.sender?.role) {
                         const { role: strRole, entryPayload } = conversationEntry.sender;
