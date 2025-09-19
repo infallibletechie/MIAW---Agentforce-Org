@@ -17,9 +17,13 @@
 
 	  				if ( strRole == 'EndUser' ) {
 
-						if ( tempContent.abstractMessage.staticContent.text ) {
+						if ( tempContent.conversationEntry.entryPayload ) {
 	  
-							console.log( 'Text -->', tempContent.abstractMessage.staticContent.text );
+							let entryPayloadObj = JSON.parse( tempContent.conversationEntry.entryPayload );
+
+							let result = entryPayloadObj.abstractMessage.staticContent.text;
+							
+							console.log( 'result -->', result );
 	   
    						}
 
