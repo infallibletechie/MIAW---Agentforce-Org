@@ -26,8 +26,9 @@
                                 const result = entryPayloadObj?.abstractMessage?.staticContent?.text;
                                 
                                 console.log('result -->', result);
-
-                                if (result === 'End') {
+                                const optOutKeywords = [ 'end', 'stop' ];
+                                
+                                if (optOutKeywords.includes(result)) {
                                     embeddedservice_bootstrap.userVerificationAPI
                                         .clearSession()
                                         .then(() => {
