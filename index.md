@@ -7,14 +7,23 @@
 			   window.addEventListener( "onEmbeddedMessageSent", ( event ) => {
 			
 				console.log( "START:: Message Sent" );
-				console.log( "Event detail: ", JSON.stringify( event.detail ) );
 					
 				let tempContent = event.detail;
 			
-					if ( tempContent.conversationEntry.sender.role ) {
+				if ( tempContent.conversationEntry.sender.role ) {
 			
 					let strRole = tempContent.conversationEntry.sender.role;
 					console.log( 'strRole =>', strRole );
+
+	  				if ( strRole == 'EndUser' ) {
+
+						if ( tempContent.abstractMessage.staticContent.text ) {
+	  
+							console.log( 'Text -->', tempContent.abstractMessage.staticContent.text );
+	   
+   						}
+
+					}
 			
 				}
 			
