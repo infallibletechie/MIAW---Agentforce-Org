@@ -19,6 +19,7 @@
                     if (conversationEntry?.sender?.role) {
                         const { role: strRole, entryPayload } = conversationEntry.sender;
                         console.log('strRole =>', strRole);
+                        console.log('entryPayload =>', JSON.stringify(entryPayload));
 
                         if (strRole === 'EndUser' && entryPayload) {
                             try {
