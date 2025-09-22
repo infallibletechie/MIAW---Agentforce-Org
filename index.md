@@ -43,6 +43,7 @@
                                         })
                                         .finally(() => {
                                             console.log("clearSession finally.");
+                                            window.alert("You have opted out of Chat!!!");
                                         });
                                 }
                             } catch (e) {
